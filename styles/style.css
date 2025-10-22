@@ -3,6 +3,7 @@
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
   margin: 92px 50px 96px 50px;
+  height:90px;
 }
 
 .header__menu {
@@ -53,6 +54,7 @@
   display: block;
   align-self: center;
   width: 130px;
+  height: 105px;
 }
 
 .header__logo-image {
@@ -93,11 +95,13 @@
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
+  height: 757px;
 }
 
 .overlay {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.6);
+  height: 757px;
 }
 
 .cover__title {
@@ -126,12 +130,12 @@
 
 .aligned-text_center {
   align-self: center;
-  margin: 0 78px;
+  margin: 0 78px 0 110px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .cover__description {
@@ -157,7 +161,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  word-spacing: 17px;
+  word-spacing: 20px;
 }
 
 .bet-button {
@@ -169,7 +173,7 @@
 
 .lots {
   flex-shrink: 0;
-  margin: 180px 0 0 0;
+  margin: 174px 0 0 0;
   padding: 0 24px;
 }
 
@@ -288,7 +292,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
-  margin: 180px 50px 184px 50px;
+  margin: 151px 22px 184px 50px;
 }
 
 .about__column {
